@@ -1,0 +1,85 @@
+html {
+
+height: 100%;
+width: 100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d33033;
+    text-align: center;
+    color: #FFCBDD;
+    font-size: calc(14px + 0.5vw);
+}
+
+h1 {
+ background: linear-gradient(#d33033, #ee7678, #d33033 );
+   margin-top: 0; 
+   padding: 20px;
+   text-shadow: #821e20 3px 3px 3px;
+}
+
+hr {
+    border-color: #FFCBDD;
+}
+
+.alfa-slab-one-regular {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .inp{
+    font-size: calc(14px + 0.6vw);
+  }
+
+  .inp:focus{
+background-color: rgb(0, 0, 0);
+color: #ffffff;
+
+  }
+
+  .btn{
+    font-size: calc(14px + 0.5vw);
+    border-radius: 10px;
+    padding: 10px;
+   background-color: #ee7678;
+    box-shadow: inset -5px -5px 6px #821e20;
+    transition: 100ms;
+  }
+
+  .btn:hover{
+    box-shadow: inset -5px -5px 6px #821e20;
+    color: white;
+  }
+
+  .btn:active{
+    box-shadow: inset 5px 5px 6px #821e20;
+    color: white;
+    transform: translate(5px, 5px);
+  }
+
+  
+  
