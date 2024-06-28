@@ -81,5 +81,22 @@ color: #ffffff;
     transform: translate(5px, 5px);
   }
 
-  
+  .ibagem {
+    /*box-shadow: #ee7678 0px 0px 40px 10px;*/
+    /*box-shadow: #821e20 0px 0px 40px 10px;*/
+    /*box-shadow: #FFCBDD 0px 0px 40px 10px;*/
+    animation-name: pisca-pisca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes pisca-pisca {
+    from{
+      box-shadow: yellow 0px 0px 40px 10px
+    }
+      to{
+        box-shadow: #d33033 0px 0px 40px 10px;
+      }
+  }
   
